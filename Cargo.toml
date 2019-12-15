@@ -1,0 +1,13 @@
+[package]
+name = "switchbot"
+version = "0.1.0"
+authors = ["leo60228 <iakornfeld@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rscam = "0.5.5"
+async-std = { version = "1.2.0", features = ["attributes"] }
+futures = "0.3.1"
+image = "0.22.3"
